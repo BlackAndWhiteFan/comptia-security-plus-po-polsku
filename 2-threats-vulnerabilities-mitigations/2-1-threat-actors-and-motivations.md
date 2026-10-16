@@ -19,14 +19,14 @@ Z tą kategorią nierozerwalnie wiąże się pojęcie **APT** (ang. *Advanced Pe
 Grupom APT nadaje się nazwy i numery, żeby można było śledzić ich działalność w czasie. Przykładowo, grupa **APT28** (znana też jako *Fancy Bear*) jest wiązana z rosyjskim wywiadem wojskowym, a w 2024 r. polski rząd publicznie przypisał rosyjskiemu wywiadowi wojskowemu kampanię wymierzoną w polskie instytucje państwowe ([Notes from Poland](https://notesfrompoland.com/2024/05/09/russian-hackers-target-polish-government-bodies/)). Z kolei grupa **Lazarus**, powiązana z Koreą Północną, słynie z kradzieży kryptowalut, z których dochody zasilają budżet tego państwa (w 2025 r. FBI przypisało północnokoreańskim hakerom kradzież kryptowalut o wartości ok. 1,5 mld USD z giełdy Bybit – [komunikat FBI](https://www.ic3.gov/PSA/2025/PSA250226)). Jak widać, cele państwowych grup nie zawsze są czysto szpiegowskie.
 
 Typowe cechy (*key indicators*), które na egzaminie wskazują na *nation-state*:
-- cel o znaczeniu strategicznym: administracja, wojsko, infrastruktura krytyczna (energetyka, wodociągi, transport), przemysł zbrojeniowy;
+- cel o znaczeniu strategicznym: administracja, wojsko, infrastruktura krytyczna (ang. *critical infrastructure*: energetyka, wodociągi, transport), przemysł zbrojeniowy;
 - długi czas niezauważonej obecności w sieci ofiary;
 - bardzo wysokie zaawansowanie techniczne, własne narzędzia, wykorzystanie luk *zero-day*;
 - motywacja: szpiegostwo, wpływ polityczny, przygotowanie do konfliktu lub sam konflikt (wojna).
 ## Unskilled attacker
-**Napastnik bez specjalistycznej wiedzy i umiejętności, który korzysta z gotowych narzędzi, skryptów i instrukcji przygotowanych przez innych**. W poprzedniej edycji egzaminu (SY0-601) ta kategoria nazywała się ***script kiddie***, i pod tą nazwą najczęściej spotkamy ją w branży. Określenie jest nieco pogardliwe: chodzi o kogoś, kto uruchamia cudze skrypty, nie do końca rozumiejąc, jak działają.
+**Napastnik bez umiejętności**, czyli **osoba bez specjalistycznej wiedzy, która korzysta z gotowych narzędzi, skryptów i instrukcji przygotowanych przez innych**. W poprzedniej edycji egzaminu (SY0-601) ta kategoria nazywała się ***script kiddie***, i pod tą nazwą najczęściej spotkamy ją w branży. Określenie jest nieco pogardliwe: chodzi o kogoś, kto uruchamia cudze skrypty, nie do końca rozumiejąc, jak działają.
 
-Nie oznacza to jednak, że takiego napastnika można lekceważyć. Dzisiaj za kilkadziesiąt złotych można *wynająć* atak DDoS w serwisie typu *booter/stresser* (ang. *DDoS-for-hire*) albo kupić gotowy zestaw do phishingu (ang. *phishing kit*). Bariera wejścia jest więc bardzo niska, a skutki potrafią być dotkliwe, szczególnie dla słabo zabezpieczonych organizacji.
+Nie oznacza to jednak, że takiego napastnika można lekceważyć. Dzisiaj za kilkadziesiąt złotych można *wynająć* atak DDoS (ang. *Distributed Denial of Service*, rozproszona odmowa usługi) w serwisie typu *booter/stresser* (ang. *DDoS-for-hire*) albo kupić gotowy zestaw do phishingu (ang. *phishing kit*). Bariera wejścia jest więc bardzo niska, a skutki potrafią być dotkliwe, szczególnie dla słabo zabezpieczonych organizacji.
 
 Cechy: niski poziom zaawansowania, brak lub niewielkie zasoby finansowe, zazwyczaj działanie z zewnątrz. Motywacja bywa różna: ciekawość, chęć popisania się przed znajomymi, zemsta (np. na szkole), drobny zysk albo po prostu *zrobienie zamieszania*.
 ## Hacktivist
@@ -70,13 +70,13 @@ Przykłady:
 - pracownik wkleja fragmenty umowy z klientem do publicznego czatbota AI, żeby szybciej przygotować streszczenie (ten przypadek bywa nazywany ***shadow AI***);
 - ktoś podłącza do sieci firmowej własny router Wi-Fi, bo zasięg w sali konferencyjnej był za słaby.
 
-Problem polega na tym, że **nie da się chronić czegoś, o czego istnieniu się nie wie**. Takie zasoby nie są objęte aktualizacjami, kopiami zapasowymi, monitoringiem ani politykami bezpieczeństwa, a dane w nich przechowywane wymykają się spod kontroli organizacji.
+Problem polega na tym, że **nie da się chronić czegoś, o czego istnieniu się nie wie**. Takie zasoby nie są objęte aktualizacjami, kopiami zapasowymi (ang. *backups*), monitoringiem ani politykami bezpieczeństwa, a dane w nich przechowywane wymykają się spod kontroli organizacji.
 
 Cechy: źródło wewnętrzne, brak złych intencji, niewielkie zasoby i niski poziom zaawansowania. Motywacją jest najczęściej wygoda i chęć szybszego wykonania pracy.
 # Attributes of actors
-Poszczególnych sprawców można porównywać według trzech cech (atrybutów) wymienionych w celach egzaminu: **pochodzenia** (wewnętrzni czy zewnętrzni), **zasobów i finansowania** oraz **poziomu zaawansowania**. Omawiamy je poniżej, a na końcu zestawiamy w tabeli. Na egzaminie to właśnie one najczęściej pomagają rozpoznać, z kim mamy do czynienia w opisanym scenariuszu.
+**Atrybuty sprawców.** Poszczególnych sprawców można porównywać według trzech cech (atrybutów) wymienionych w celach egzaminu: **pochodzenia** (wewnętrzni czy zewnętrzni), **zasobów i finansowania** oraz **poziomu zaawansowania**. Omawiamy je poniżej, a na końcu zestawiamy w tabeli. Na egzaminie to właśnie one najczęściej pomagają rozpoznać, z kim mamy do czynienia w opisanym scenariuszu.
 ## Internal/external
-**Podział ze względu na to, skąd pochodzi zagrożenie**:
+**Sprawcy wewnętrzni i zewnętrzni**, czyli **podział ze względu na to, skąd pochodzi zagrożenie**:
 - **Wewnętrzne** (ang. *internal*) – sprawca ma uprawniony dostęp do organizacji: pracownik, kontraktor, partner, a także *shadow IT*.
 - **Zewnętrzne** (ang. *external*) – sprawca musi najpierw jakoś dostać się do środka: przestępcy, haktywiści, grupy państwowe, *script kiddies* (w SY0-701: *unskilled attackers*), czyli atakujący bez umiejętności, kupujący gotowe rozwiązania i korzystający ze złośliwych skryptów według dostarczonej instrukcji.
 
@@ -103,7 +103,7 @@ Poniższa tabela zestawia typowe cechy poszczególnych sprawców. To uogólnieni
 # Motivations
 **Motywacja odpowiada na pytanie: dlaczego?** Znając motyw, łatwiej przewidzieć, co sprawca zrobi, kiedy już dostanie się do środka: czy zacznie szyfrować dane, czy po cichu je wynosić, czy może po prostu wszystko zniszczy. Jeden sprawca może mieć kilka motywacji naraz.
 ## Data exfiltration
-**Eksfiltracja danych**, czyli **nieuprawnione wyprowadzenie danych z organizacji** (dosłownie: *wykradanie*). Dane są cenne same w sobie: dane osobowe i dane kart płatniczych można sprzedać, tajemnice handlowe przekazać konkurencji, a dane logowania wykorzystać w kolejnych atakach. Wykradzione dane służą też do szantażu (patrz niżej). Eksfiltracja jest celem zarówno przestępców, jak i grup państwowych czy nieuczciwych pracowników.
+**Eksfiltracja danych**, czyli **nieuprawnione wyprowadzenie danych z organizacji** (dosłownie: *wykradanie*). Dane są cenne same w sobie: dane osobowe (ang. *PII – Personally Identifiable Information*) i dane kart płatniczych można sprzedać, tajemnice handlowe przekazać konkurencji, a dane logowania wykorzystać w kolejnych atakach. Wykradzione dane służą też do szantażu (patrz niżej). Eksfiltracja jest celem zarówno przestępców, jak i grup państwowych czy nieuczciwych pracowników.
 ## Espionage
 **Szpiegostwo** (ang. *espionage*) to **pozyskiwanie tajnych informacji**: państwowych, wojskowych, politycznych albo przemysłowych. Szpiegostwo państwowe to domena grup *nation-state*; szpiegostwo przemysłowe (ang. *corporate/industrial espionage*) może prowadzić także konkurencja, często przy pomocy nieuczciwego pracownika (*insider*). Cechą charakterystyczną jest **dyskrecja**: szpieg nie chce zostać zauważony, więc niczego nie niszczy i nie żąda okupu.
 ## Service disruption
@@ -117,7 +117,7 @@ Poniższa tabela zestawia typowe cechy poszczególnych sprawców. To uogólnieni
 ## Ethical
 **Motywacja etyczna** (ang. *ethical*) dotyczy osób, które **szukają podatności po to, by je naprawić, a nie wykorzystać**. W branży mówi się o hakerach w *białych kapeluszach* (ang. *white hat*), w odróżnieniu od przestępców w *czarnych kapeluszach* (ang. *black hat*) oraz osób działających na granicy prawa, czyli w *szarych kapeluszach* (ang. *grey hat*).
 
-Ważne rozróżnienie: test penetracyjny czy program *bug bounty* odbywa się **za zgodą i według zasad** ustalonych z właścicielem systemu. Szukanie luk w cudzym systemie bez zgody, nawet w dobrej wierze, wciąż może zostać uznane za przestępstwo. Dlatego etyczny haker zgłasza znalezioną podatność zgodnie z zasadami **odpowiedzialnego ujawniania** (ang. *responsible/coordinated disclosure*; CERT Polska mówi o **skoordynowanym ujawnianiu podatności**), a w Polsce może w tym celu skorzystać na przykład z pośrednictwa CERT Polska.
+Ważne rozróżnienie: test penetracyjny (ang. *penetration test*) czy program *bug bounty* odbywa się **za zgodą i według zasad** ustalonych z właścicielem systemu. Szukanie luk w cudzym systemie bez zgody, nawet w dobrej wierze, wciąż może zostać uznane za przestępstwo. Dlatego etyczny haker zgłasza znalezioną podatność zgodnie z zasadami **odpowiedzialnego ujawniania** (ang. *responsible/coordinated disclosure*; CERT Polska mówi o **skoordynowanym ujawnianiu podatności**), a w Polsce może w tym celu skorzystać na przykład z pośrednictwa CERT Polska.
 ## Revenge
 **Zemsta** (ang. *revenge*) to motywacja typowa dla **rozżalonych pracowników i byłych pracowników**, np. zwolnionych dyscyplinarnie albo pominiętych przy awansie. Mszczący się *insider* może skasować dane, sabotować system, którym się opiekował, albo wynieść poufne informacje i przekazać je konkurencji lub mediom. Dlatego tak ważna jest procedura odejścia pracownika z firmy (ang. *offboarding*), w tym natychmiastowe odebranie wszystkich uprawnień.
 ## Disruption/chaos
