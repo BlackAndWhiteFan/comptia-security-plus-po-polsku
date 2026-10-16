@@ -16,7 +16,7 @@ Z tą kategorią nierozerwalnie wiąże się pojęcie **APT** (ang. *Advanced Pe
 - ***Persistent*** – celem nie jest szybki zysk, ale długotrwała, niezauważona obecność w zaatakowanej sieci. Taki *cichy lokator* potrafi przebywać w systemach ofiary miesiącami, a nawet latami.
 - ***Threat*** – za atakiem stoi zorganizowana, zdeterminowana grupa ludzi, a nie przypadkowy program.
 
-Grupom APT nadaje się nazwy i numery, żeby można było śledzić ich działalność w czasie. Przykładowo, grupa **APT28** (znana też jako *Fancy Bear*) jest wiązana z rosyjskim wywiadem wojskowym, a w 2024 r. polski rząd publicznie przypisał rosyjskiemu wywiadowi wojskowemu kampanię wymierzoną w polskie instytucje państwowe ([Notes from Poland](https://notesfrompoland.com/2024/05/09/russian-hackers-target-polish-government-bodies/)). Z kolei grupa **Lazarus**, powiązana z Koreą Północną, słynie z kradzieży kryptowalut, z których dochody zasilają budżet tego państwa (w 2025 r. FBI (ang. *Federal Bureau of Investigation*, Federalne Biuro Śledcze) przypisało północnokoreańskim hakerom kradzież kryptowalut o wartości ok. 1,5 mld USD z giełdy Bybit – [komunikat FBI](https://www.ic3.gov/PSA/2025/PSA250226)). Jak widać, cele państwowych grup nie zawsze są czysto szpiegowskie.
+Grupom APT nadaje się nazwy i numery, żeby można było śledzić ich działalność w czasie. Przykładowo, grupa **APT28** (znana też jako *Fancy Bear*) jest wiązana z rosyjskim wywiadem wojskowym, a w 2024 r. polski rząd publicznie przypisał rosyjskiemu wywiadowi wojskowemu kampanię wymierzoną w polskie instytucje państwowe ([Notes from Poland](https://notesfrompoland.com/2024/05/09/russian-hackers-target-polish-government-bodies/)). Z kolei grupa **Lazarus**, powiązana z Koreą Północną, słynie z kradzieży kryptowalut, z których dochody zasilają budżet tego państwa (w 2025 r. FBI przypisało północnokoreańskim hakerom kradzież kryptowalut o wartości ok. 1,5 mld USD z giełdy Bybit – [komunikat FBI](https://www.ic3.gov/PSA/2025/PSA250226)). Jak widać, cele państwowych grup nie zawsze są czysto szpiegowskie.
 
 Typowe cechy (*key indicators*), które na egzaminie wskazują na *nation-state*:
 - cel o znaczeniu strategicznym: administracja, wojsko, infrastruktura krytyczna (ang. *critical infrastructure*: energetyka, wodociągi, transport), przemysł zbrojeniowy;
@@ -63,14 +63,14 @@ Przykładem jest grupa **LockBit**, przez kilka lat jedna z najaktywniejszych gr
 
 Cechy: działanie z zewnątrz, duże zasoby finansowe (zarabiają, więc inwestują), wysoki poziom zaawansowania. Motywacja: przede wszystkim zysk finansowy, osiągany przez szantaż (okup za odszyfrowanie lub za niepublikowanie danych), kradzież danych i kryptowalut czy oszustwa.
 ## Shadow IT
-***Shadow IT*** (dosłownie: *IT w cieniu*; IT, ang. *Information Technology*, to technologie informatyczne) to **systemy, aplikacje, usługi chmurowe i urządzenia używane w organizacji bez wiedzy i zgody działu IT**. Na pierwszy rzut oka może dziwić, że ta pozycja znalazła się na liście sprawców zagrożeń, skoro nikt tu nikogo celowo nie atakuje. Chodzi jednak o to, że **zagrożenie stwarzają sami pracownicy**, którzy w dobrej wierze, *żeby było szybciej*, omijają oficjalne procedury.
+***Shadow IT*** (dosłownie: *IT w cieniu*) to **systemy, aplikacje, usługi chmurowe i urządzenia używane w organizacji bez wiedzy i zgody działu IT**. Na pierwszy rzut oka może dziwić, że ta pozycja znalazła się na liście sprawców zagrożeń, skoro nikt tu nikogo celowo nie atakuje. Chodzi jednak o to, że **zagrożenie stwarzają sami pracownicy**, którzy w dobrej wierze, *żeby było szybciej*, omijają oficjalne procedury.
 
 Przykłady:
 - zespół trzyma firmowe dokumenty na prywatnym koncie w chmurze, bo *tak wygodniej je udostępniać*;
-- pracownik wkleja fragmenty umowy z klientem do publicznego czatbota AI (ang. *Artificial Intelligence*, sztuczna inteligencja), żeby szybciej przygotować streszczenie (ten przypadek bywa nazywany ***shadow AI***);
+- pracownik wkleja fragmenty umowy z klientem do publicznego czatbota AI, żeby szybciej przygotować streszczenie (ten przypadek bywa nazywany ***shadow AI***);
 - ktoś podłącza do sieci firmowej własny router Wi-Fi, bo zasięg w sali konferencyjnej był za słaby.
 
-Problem polega na tym, że **nie da się chronić czegoś, o czego istnieniu się nie wie**. Takie zasoby nie są objęte aktualizacjami, kopiami zapasowymi (ang. *backups*), monitoringiem ani politykami bezpieczeństwa, a dane w nich przechowywane wymykają się spod kontroli organizacji.
+Problem polega na tym, że **nie da się chronić czegoś, o czego istnieniu się nie wie**. Takie zasoby nie są objęte aktualizacjami, kopiami zapasowymi, monitoringiem ani politykami bezpieczeństwa, a dane w nich przechowywane wymykają się spod kontroli organizacji.
 
 Cechy: źródło wewnętrzne, brak złych intencji, niewielkie zasoby i niski poziom zaawansowania. Motywacją jest najczęściej wygoda i chęć szybszego wykonania pracy.
 # Attributes of actors
