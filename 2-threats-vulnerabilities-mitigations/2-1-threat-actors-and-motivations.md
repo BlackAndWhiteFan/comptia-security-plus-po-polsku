@@ -16,6 +16,13 @@ Z tą kategorią często wiąże się pojęcie **APT** (ang. *Advanced Persisten
 - ***Persistent*** – celem nie jest szybki zysk, ale długotrwała, niezauważona obecność w zaatakowanej sieci. Taki *cichy lokator* potrafi przebywać w systemach ofiary miesiącami, a nawet latami.
 - ***Threat*** – za atakiem stoi zorganizowana, zdeterminowana grupa ludzi, a nie przypadkowy program.
 
+Techniki typowe dla APT nie są jednak zarezerwowane dla państw. Długotrwałe, starannie przygotowane ataki prowadzą też:
+- **zorganizowane grupy przestępcze** nastawione na zysk (patrz [Organized crime](#organized-crime));
+- **cybernajemnicy** (ang. *cyber mercenaries*, *hack-for-hire*), czyli firmy i grupy prowadzące **komercyjne cyberszpiegostwo** na zlecenie: włamują się do wskazanych osób lub organizacji albo sprzedają narzędzia szpiegujące. Przykładem jest izraelska firma NSO Group, twórca oprogramowania szpiegującego Pegasus, którą w 2021 r. USA wpisały na listę podmiotów objętych ograniczeniami eksportowymi;
+- sprawcy **szpiegostwa przemysłowego** (patrz [Espionage](#espionage)), którzy wykradają tajemnice handlowe na rzecz konkurencji.
+
+Klientem takich grup bywa państwo, ale nie musi. Dlatego mogą one, choć nie muszą, zazębiać się z kategorią *nation-state*.
+
 Grupom APT nadaje się nazwy i numery, żeby można było śledzić ich działalność w czasie. Przykładowo, grupa **APT28** (znana też jako *Fancy Bear*) jest wiązana z rosyjskim wywiadem wojskowym, a w 2024 r. polski rząd publicznie przypisał rosyjskiemu wywiadowi wojskowemu kampanię wymierzoną w polskie instytucje państwowe ([Notes from Poland](https://notesfrompoland.com/2024/05/09/russian-hackers-target-polish-government-bodies/)). Z kolei grupa **Lazarus**, powiązana z Koreą Północną, słynie z kradzieży kryptowalut, z których dochody zasilają budżet tego państwa (w 2025 r. FBI przypisało północnokoreańskim hakerom kradzież kryptowalut o wartości ok. 1,5 mld USD z giełdy Bybit – [komunikat FBI](https://www.ic3.gov/PSA/2025/PSA250226)). Jak widać, cele państwowych grup nie zawsze są czysto szpiegowskie.
 
 Typowe cechy (*key indicators*), które na egzaminie wskazują na *nation-state*:
