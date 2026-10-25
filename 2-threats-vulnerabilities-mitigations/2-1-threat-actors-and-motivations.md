@@ -25,7 +25,7 @@ Klientem takich grup bywa państwo, ale nie musi. Dlatego mogą one, choć nie m
 
 Grupom APT nadaje się nazwy i numery, żeby można było śledzić ich działalność w czasie. Przykładowo, grupa **APT28** (znana też jako *Fancy Bear*) jest wiązana z rosyjskim wywiadem wojskowym, a w 2024 r. polski rząd publicznie przypisał rosyjskiemu wywiadowi wojskowemu kampanię wymierzoną w polskie instytucje państwowe ([Notes from Poland](https://notesfrompoland.com/2024/05/09/russian-hackers-target-polish-government-bodies/)). Z kolei grupa **Lazarus**, powiązana z Koreą Północną, słynie z kradzieży kryptowalut, z których dochody zasilają budżet tego państwa (w 2025 r. FBI przypisało północnokoreańskim hakerom kradzież kryptowalut o wartości ok. 1,5 mld USD z giełdy Bybit – [komunikat FBI](https://www.ic3.gov/PSA/2025/PSA250226)). Jak widać, cele państwowych grup nie zawsze są czysto szpiegowskie.
 
-Typowe cechy (*key indicators*), które na egzaminie wskazują na *nation-state*:
+**Typowe cechy** (*key indicators*), które na egzaminie wskazują na *nation-state*:
 - cel o znaczeniu strategicznym: administracja, wojsko, infrastruktura krytyczna (ang. *critical infrastructure*: energetyka, wodociągi, transport), przemysł zbrojeniowy;
 - długi czas niezauważonej obecności w sieci ofiary;
 - bardzo wysokie zaawansowanie techniczne, własne narzędzia, wykorzystanie luk *zero-day*;
@@ -35,22 +35,25 @@ Typowe cechy (*key indicators*), które na egzaminie wskazują na *nation-state*
 
 Nie oznacza to jednak, że takiego napastnika można lekceważyć. Dzisiaj za kilkadziesiąt złotych można *wynająć* atak DDoS (ang. *Distributed Denial of Service*, rozproszona odmowa usługi) w serwisie typu *booter/stresser* (ang. *DDoS-for-hire*) albo kupić gotowy zestaw do phishingu (ang. *phishing kit*). Bariera wejścia jest więc bardzo niska, a skutki potrafią być dotkliwe, szczególnie dla słabo zabezpieczonych organizacji.
 
-Cechy: niski poziom zaawansowania, brak lub niewielkie zasoby finansowe, zazwyczaj działanie z zewnątrz. Motywacja bywa różna: ciekawość, chęć popisania się przed znajomymi, zemsta (np. na szkole), drobny zysk albo po prostu *zrobienie zamieszania*.
+**Cechy:** niski poziom zaawansowania, brak lub niewielkie zasoby finansowe, zazwyczaj działanie z zewnątrz. Motywacja bywa różna: ciekawość, chęć popisania się przed znajomymi, zemsta (np. na szkole), drobny zysk albo po prostu *zrobienie zamieszania*.
 ## Hacktivist
 **Haktywista** (ang. *hacktivist*, połączenie słów *hacker* i *activist*) to **osoba lub grupa, która przeprowadza ataki, aby promować określone poglądy polityczne, społeczne lub ideologiczne**. Celem nie jest zysk finansowy, ale nagłośnienie sprawy, ośmieszenie przeciwnika lub utrudnienie mu działania.
 
 Typowe działania haktywistów to:
 - ataki DDoS, które czasowo wyłączają strony internetowe,
 - podmiana zawartości strony (ang. *website defacement*), np. na hasło polityczne,
-- wykradanie i publikowanie poufnych dokumentów (ang. *doxing*, *leak*).
+- wykradanie i publikowanie poufnych dokumentów (ang. *data leak*),
+- ujawnianie prywatnych informacji o konkretnych osobach (ang. *doxing*).
 
-Najbardziej znanym przykładem jest luźny ruch **Anonymous**. Z naszego podwórka dobrym przykładem jest prorosyjska grupa **NoName057(16)**, która od 2022 r. regularnie atakuje DDoS-em strony polskich instytucji, firm, samorządów, a nawet partii politycznych w czasie kampanii wyborczych, ogłaszając swoje *sukcesy* w mediach społecznościowych. W 2025 r. przeciwko jej infrastrukturze przeprowadzono międzynarodową operację z udziałem Europolu i polskiej policji ([gov.pl](https://www.gov.pl/web/po-plock/operacja-wymierzona-w-prorosyjska-siec-cyberprzestepcza-noname05716)). Warto zauważyć, że granica między haktywistą a sprawcą państwowym bywa bardzo cienka: część grup przedstawiających się jako *niezależni aktywiści* w rzeczywistości działa w interesie konkretnego państwa.
+Najbardziej znanym przykładem jest luźny ruch **Anonymous**. Z naszego podwórka dobrym przykładem jest prorosyjska grupa **NoName057(16)**, która od 2022 r. regularnie atakuje DDoS-em strony polskich instytucji, firm, samorządów, a nawet partii politycznych w czasie kampanii wyborczych, ogłaszając swoje *sukcesy* w mediach społecznościowych. W 2025 r. przeciwko jej infrastrukturze przeprowadzono międzynarodową operację z udziałem Europolu i polskiej policji ([gov.pl](https://www.gov.pl/web/po-plock/operacja-wymierzona-w-prorosyjska-siec-cyberprzestepcza-noname05716)).
 
-Cechy: działanie z zewnątrz, zasoby zwykle ograniczone (choć niektóre grupy mają zaskakująco duże możliwości), zaawansowanie od niskiego do średniego. Motywacja: przekonania polityczne i filozoficzne (ang. *philosophical/political beliefs*).
+Warto zauważyć, że **granica między haktywistą a sprawcą państwowym bywa bardzo cienka**: część grup przedstawiających się jako *niezależni aktywiści* w rzeczywistości działa w interesie konkretnego państwa.
+
+**Cechy:** działanie z zewnątrz, zasoby zwykle ograniczone (choć niektóre grupy mają zaskakująco duże możliwości), poziom zaawansowania technicznego od niskiego do wysokiego. Motywacja: przekonania polityczne i filozoficzne (ang. *philosophical/political beliefs*).
 ## Insider threat
-**Zagrożenie wewnętrzne** (ang. *insider threat*) to **zagrożenie ze strony osoby, która ma uprawniony dostęp do zasobów organizacji**, czyli przede wszystkim pracownika, ale także byłego pracownika, kontraktora czy partnera biznesowego. To kategoria szczególnie niebezpieczna, ponieważ taka osoba:
-- **nie musi niczego *włamywać***, bo ma już login, hasło i dostęp do budynku,
-- **zna organizację od środka**: wie, gdzie leżą cenne dane i jakie zabezpieczenia są słabe,
+**Zagrożenie wewnętrzne** (ang. *insider threat*) to **zagrożenie wynikające z wykorzystania dostępu lub wiedzy zdobytej dzięki powiązaniu z organizacją**. Jego źródłem może być pracownik, kontraktor, partner biznesowy, a także były pracownik, który zachował dostęp do systemów lub wcześniej pozyskał poufne informacje. To kategoria szczególnie niebezpieczna, ponieważ taka osoba:
+- **nie musi się nigdzie *włamywać***, bo ma już wstęp do budynku i posiada dane dostępowe do systemów,
+- **zna organizację od środka**: wie, gdzie leżą cenne dane i w których miejscach zabezpieczenia są niewystarczające,
 - **budzi mniej podejrzeń**, bo jej aktywność w systemach wygląda jak zwykła praca.
 
 Pamiętajmy, że zagrożenie wewnętrzne **nie zawsze wynika ze złej woli**. Wyróżniamy:
@@ -59,7 +62,7 @@ Pamiętajmy, że zagrożenie wewnętrzne **nie zawsze wynika ze złej woli**. Wy
 
 Głośnym przykładem celowego działania z pobudek ideologicznych jest sprawa Edwarda Snowdena, który w 2013 r., jako pracownik firmy zewnętrznej z dostępem do systemów amerykańskiej NSA (ang. *National Security Agency*, Agencja Bezpieczeństwa Narodowego), wyniósł i ujawnił tajne dokumenty.
 
-Cechy: działanie **od wewnątrz** (ang. *internal*), zasoby zwykle niewielkie, ale za to dostęp i wiedza bardzo duże; poziom zaawansowania technicznego bywa różny. Motywacje: zemsta, zysk finansowy, przekonania, szantaż, a w przypadku sprawców nieumyślnych – zwykła nieuwaga.
+**Cechy:** działanie **od wewnątrz** (ang. *internal*), zasoby zwykle niewielkie, ale za to dostęp i wiedza bardzo duże; poziom zaawansowania technicznego bywa różny. Motywacje: zemsta, zysk finansowy, przekonania, szantaż, a w przypadku sprawców nieumyślnych – zwykła nieuwaga.
 ## Organized crime
 **Zorganizowane grupy przestępcze** (ang. *organized crime*) działają w cyberprzestrzeni tak samo, jak w świecie fizycznym: **ich głównym celem są pieniądze**. Współczesna cyberprzestępczość przypomina zresztą regularną branżę usługową, z podziałem ról i *produktami* sprzedawanymi innym przestępcom:
 - twórcy złośliwego oprogramowania udostępniają je w modelu abonamentowym (ang. *Malware-as-a-Service*, *MaaS*), a gangi ransomware – w modelu ***Ransomware-as-a-Service* (RaaS)**, w którym *partnerzy* (ang. *affiliates*) przeprowadzają ataki i dzielą się okupem z twórcami;
@@ -68,7 +71,7 @@ Cechy: działanie **od wewnątrz** (ang. *internal*), zasoby zwykle niewielkie, 
 
 Przykładem jest grupa **LockBit**, przez kilka lat jedna z najaktywniejszych grup ransomware na świecie, której infrastrukturę w 2024 r. przejęły służby kilku państw w ramach międzynarodowej operacji *Cronos*.
 
-Cechy: działanie z zewnątrz, duże zasoby finansowe (zarabiają, więc inwestują), wysoki poziom zaawansowania. Motywacja: przede wszystkim zysk finansowy, osiągany przez szantaż (okup za odszyfrowanie lub za niepublikowanie danych), kradzież danych i kryptowalut czy oszustwa.
+**Cechy:** działanie z zewnątrz, duże zasoby finansowe (zarabiają, więc inwestują), wysoki poziom zaawansowania. Motywacja: przede wszystkim zysk finansowy, osiągany przez szantaż (okup za odszyfrowanie lub za niepublikowanie danych), kradzież danych i kryptowalut czy oszustwa.
 ## Shadow IT
 ***Shadow IT*** (dosłownie: *IT w cieniu*) to **systemy, aplikacje, usługi chmurowe i urządzenia używane w organizacji bez wiedzy i zgody działu IT**. Na pierwszy rzut oka może dziwić, że ta pozycja znalazła się na liście sprawców zagrożeń, skoro nikt tu nikogo celowo nie atakuje. Chodzi jednak o to, że **zagrożenie stwarzają sami pracownicy**, którzy w dobrej wierze, *żeby było szybciej*, omijają oficjalne procedury.
 
@@ -79,23 +82,23 @@ Przykłady:
 
 Problem polega na tym, że **nie da się chronić czegoś, o czego istnieniu się nie wie**. Takie zasoby nie są objęte aktualizacjami, kopiami zapasowymi, monitoringiem ani politykami bezpieczeństwa, a dane w nich przechowywane wymykają się spod kontroli organizacji.
 
-Cechy: źródło wewnętrzne, brak złych intencji, niewielkie zasoby i niski poziom zaawansowania. Motywacją jest najczęściej wygoda i chęć szybszego wykonania pracy.
+**Cechy:** źródło wewnętrzne, brak złych intencji, niewielkie zasoby i niski poziom zaawansowania. Motywacją jest najczęściej wygoda i chęć szybszego wykonania pracy.
 # Attributes of actors
 **Atrybuty sprawców.** Poszczególnych sprawców można porównywać według trzech cech (atrybutów) wymienionych w celach egzaminu: **pochodzenia** (wewnętrzni czy zewnętrzni), **zasobów i finansowania** oraz **poziomu zaawansowania**. Omawiamy je poniżej, a na końcu zestawiamy w tabeli. Na egzaminie to właśnie one najczęściej pomagają rozpoznać, z kim mamy do czynienia w opisanym scenariuszu.
 ## Internal/external
 **Sprawcy wewnętrzni i zewnętrzni**, czyli **podział ze względu na to, skąd pochodzi zagrożenie**:
 - **Wewnętrzne** (ang. *internal*) – sprawca ma uprawniony dostęp do organizacji: pracownik, kontraktor, partner, a także *shadow IT*.
-- **Zewnętrzne** (ang. *external*) – sprawca musi najpierw jakoś dostać się do środka: przestępcy, haktywiści, grupy państwowe, *script kiddies* (w SY0-701: *unskilled attackers*), czyli atakujący bez umiejętności, kupujący gotowe rozwiązania i korzystający ze złośliwych skryptów według dostarczonej instrukcji.
+- **Zewnętrzne** (ang. *external*) – sprawca działa spoza organizacji: przestępcy, haktywiści, grupy państwowe, *unskilled attackers* (w SY0-601: *script kiddies*), czyli atakujący bez umiejętności, kupujący gotowe rozwiązania i korzystający ze złośliwych skryptów według dostarczonej instrukcji.
 
-Warto pamiętać, że sprawca zewnętrzny bardzo często próbuje stać się *wewnętrznym*: wykraść dane logowania pracownika, przekupić go albo nakłonić do pomocy. Dlatego obrona przed zagrożeniami z zewnątrz i od wewnątrz idzie w parze.
+Warto pamiętać, że sprawca zewnętrzny może próbować wykorzystać dostęp przysługujący osobom wewnątrz organizacji, np. poprzez kradzież danych logowania, przekupienie pracownika lub nakłonienie go do współpracy. Samo przejęcie konta pracownika nie oznacza jednak, że napastnik staje się sprawcą wewnętrznym (ang. *insider threat*).
 ## Resources/funding
-**Zasoby i finansowanie**, czyli to, czym sprawca dysponuje: pieniądze, ludzie, sprzęt, infrastruktura, a także **czas**. Grupa sponsorowana przez państwo może przez miesiące przygotowywać atak na jeden cel. Napastnik bez umiejętności zrezygnuje, jeśli po kilku godzinach nic mu nie wyjdzie.
+**Zasoby i finansowanie**, czyli to, czym sprawca dysponuje: pieniądze, ludzie, sprzęt, infrastruktura, a także **czas**. Przykładowo, grupa sponsorowana przez państwo może przez miesiące przygotowywać atak na jeden cel. Natomiast napastnik bez odpowiednio dużych środków najprawdopodobniej zrezygnuje już po kilku godzinach nieudanych prób.
 
 Im większe zasoby, tym bardziej wyrafinowanego i długotrwałego ataku można się spodziewać, i tym trudniej się przed nim obronić.
 ## Level of sophistication/capability
 **Poziom zaawansowania i możliwości technicznych**: od uruchamiania gotowych narzędzi (*unskilled attacker*), przez sprawne posługiwanie się znanymi technikami, aż po tworzenie własnego złośliwego oprogramowania i wykorzystywanie nieznanych wcześniej luk (*zero-day*) przez grupy APT.
 
-Zasoby i zaawansowanie zwykle idą w parze, choć nie zawsze: *insider* może mieć niewielkie umiejętności techniczne, a mimo to wyrządzić ogromne szkody, bo ma dostęp i wiedzę.
+Zasoby i zaawansowanie zwykle idą w parze, choć nie zawsze: *insider* może mieć niewielkie umiejętności techniczne, a mimo to wyrządzić ogromne szkody, bo ma dostęp i wiedzę o potencjalnym celu.
 ### Podsumowanie
 Poniższa tabela zestawia typowe cechy poszczególnych sprawców. To uogólnienie, które pomaga na egzaminie; w rzeczywistości od każdej reguły zdarzają się wyjątki.
 
@@ -103,7 +106,7 @@ Poniższa tabela zestawia typowe cechy poszczególnych sprawców. To uogólnieni
 |---|---|---|---|---|
 | *Nation-state* | zewnętrzne | bardzo duże | bardzo wysokie | szpiegostwo, polityka, wojna, zakłócenie działania |
 | *Unskilled attacker* | zewnętrzne | niewielkie | niskie | ciekawość, popis, chaos, zemsta |
-| *Hacktivist* | zewnętrzne | ograniczone | niskie do średniego | przekonania polityczne i filozoficzne |
+| *Hacktivist* | zewnętrzne | ograniczone | od niskiego do wysokiego | przekonania polityczne i filozoficzne |
 | *Insider threat* | wewnętrzne | niewielkie (ale duży dostęp) | różne | zemsta, zysk, przekonania; albo nieuwaga |
 | *Organized crime* | zewnętrzne | duże | wysokie | zysk finansowy, szantaż |
 | *Shadow IT* | wewnętrzne | niewielkie | niskie | wygoda (brak złych intencji) |
