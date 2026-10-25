@@ -11,7 +11,7 @@ Kilka słów o terminologii. Angielski termin ***threat actor*** w polskich teks
 ## Nation-state
 **Grupy sponsorowane przez państwo**, czyli **sprawcy działający na zlecenie państwa lub z jego cichym przyzwoleniem (ang. *nation-state*, *state-sponsored*), zazwyczaj powiązani ze służbami specjalnymi lub wojskiem**. To najgroźniejsza kategoria sprawców, ponieważ dysponuje praktycznie nieograniczonymi zasobami: pieniędzmi, ludźmi, czasem, a niekiedy także wiedzą o lukach, które nie są jeszcze nikomu znane (ang. *zero-day*).
 
-Z tą kategorią nierozerwalnie wiąże się pojęcie **APT** (ang. *Advanced Persistent Threat*), czyli **zaawansowanego, trwałego zagrożenia**. Każde słowo w tej nazwie ma znaczenie:
+Z tą kategorią często wiąże się pojęcie **APT** (ang. *Advanced Persistent Threat*), czyli **zaawansowanego, trwałego zagrożenia**. Każde słowo w tej nazwie ma znaczenie:
 - ***Advanced*** – atakujący stosują wyrafinowane techniki i narzędzia, często przygotowane specjalnie pod konkretny cel.
 - ***Persistent*** – celem nie jest szybki zysk, ale długotrwała, niezauważona obecność w zaatakowanej sieci. Taki *cichy lokator* potrafi przebywać w systemach ofiary miesiącami, a nawet latami.
 - ***Threat*** – za atakiem stoi zorganizowana, zdeterminowana grupa ludzi, a nie przypadkowy program.
