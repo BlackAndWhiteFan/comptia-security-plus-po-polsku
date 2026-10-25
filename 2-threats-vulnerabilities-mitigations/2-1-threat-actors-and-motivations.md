@@ -9,7 +9,7 @@ Kilka słów o terminologii. Angielski termin ***threat actor*** w polskich teks
 # Threat actors
 **Sprawca (aktor) zagrożeń to osoba, grupa lub organizacja, która celowo (lub nieumyślnie) działa na szkodę systemów, danych albo ludzi**. Poniżej znajdują się kategorie sprawców wymienione w celach egzaminu SY0-701. Pamiętajmy, że w rzeczywistości granice między nimi bywają płynne: grupa przestępcza może pracować na zlecenie państwa, a haktywista może korzystać z narzędzi kupionych od przestępców.
 ## Nation-state
-**Grupy sponsorowane przez państwo**, czyli **sprawcy działający na zlecenie państwa lub z jego cichym przyzwoleniem (ang. *nation-state*, *state-sponsored*), zazwyczaj powiązani ze służbami specjalnymi lub wojskiem**. To najgroźniejsza kategoria sprawców, ponieważ dysponuje praktycznie nieograniczonymi zasobami: pieniędzmi, ludźmi, czasem, a niekiedy także wiedzą o lukach, które nie są jeszcze nikomu znane (ang. *zero-day*).
+**Grupy sponsorowane przez państwo**, czyli **sprawcy działający na zlecenie państwa lub z jego cichym przyzwoleniem (ang. *nation-state*, *state-sponsored*), zazwyczaj powiązani ze służbami specjalnymi lub wojskiem**. To najgroźniejsza kategoria sprawców, ponieważ może dysponować ogromnymi zasobami, szczególnie w przypadku takich potęg wywiadowczych, jak Chiny, Rosja, USA czy Izrael: pieniędzmi, ludźmi, czasem, a niekiedy także wiedzą o lukach nieznanych jeszcze producentowi ani obrońcom (ang. *zero-day vulnerability*).
 
 Z tą kategorią często wiąże się pojęcie **APT** (ang. *Advanced Persistent Threat*), czyli **zaawansowanego, trwałego zagrożenia**. Każde słowo w tej nazwie ma znaczenie:
 - ***Advanced*** – atakujący stosują wyrafinowane techniki i narzędzia, często przygotowane specjalnie pod konkretny cel.
