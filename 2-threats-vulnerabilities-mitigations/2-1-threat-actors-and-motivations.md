@@ -13,12 +13,12 @@ Kilka słów o terminologii. Angielski termin ***threat actor*** w polskich teks
 
 Z tą kategorią często wiąże się pojęcie **APT** (ang. *Advanced Persistent Threat*), czyli **zaawansowanego, trwałego zagrożenia**. Każde słowo w tej nazwie ma znaczenie:
 - ***Advanced*** – atakujący stosują wyrafinowane techniki i narzędzia, często przygotowane specjalnie pod konkretny cel.
-- ***Persistent*** – celem nie jest szybki zysk, ale długotrwała, niezauważona obecność w zaatakowanej sieci. Taki *cichy lokator* potrafi przebywać w systemach ofiary miesiącami, a nawet latami.
+- ***Persistent*** – przede wszystkim **upór i konsekwencja w dążeniu do celu**: gdy jedna próba się nie powiedzie, atakujący nie rezygnuje, tylko szuka innej drogi, nawet przez wiele miesięcy. Celem nie jest szybki zysk, ale długotrwała, niezauważona obecność w zaatakowanej sieci. Taki *cichy lokator* potrafi przebywać w systemach ofiary miesiącami, a nawet latami, a wykryty i usunięty często próbuje wrócić.
 - ***Threat*** – za atakiem stoi zorganizowana, zdeterminowana grupa ludzi, a nie przypadkowy program.
 
 Techniki typowe dla APT nie są jednak zarezerwowane dla państw. Długotrwałe, starannie przygotowane ataki prowadzą też:
 - **zorganizowane grupy przestępcze** nastawione na zysk (patrz [Organized crime](#organized-crime));
-- **cybernajemnicy** (ang. *cyber mercenaries*, *hack-for-hire*), czyli firmy i grupy prowadzące **komercyjne cyberszpiegostwo** na zlecenie: włamują się do wskazanych osób lub organizacji albo sprzedają narzędzia szpiegujące. Przykładem jest izraelska firma NSO Group, twórca oprogramowania szpiegującego Pegasus, którą w 2021 r. USA wpisały na listę podmiotów objętych ograniczeniami eksportowymi;
+- **cybernajemnicy** (ang. *cyber mercenaries*, *hack-for-hire*), czyli firmy i grupy prowadzące **komercyjne cyberszpiegostwo** na zlecenie: włamują się do wskazanych osób lub organizacji albo sprzedają narzędzia szpiegujące. Przykładem jest izraelska firma NSO Group, twórca oprogramowania szpiegującego Pegasus, którą w 2021 r. USA wpisały na listę podmiotów objętych ograniczeniami eksportowymi ([komunikat Departamentu Handlu USA](https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list));
 - sprawcy **szpiegostwa przemysłowego** (patrz [Espionage](#espionage)), którzy wykradają tajemnice handlowe na rzecz konkurencji.
 
 Klientem takich grup bywa państwo, ale nie musi. Dlatego mogą one, choć nie muszą, zazębiać się z kategorią *nation-state*.
@@ -140,3 +140,4 @@ Przykładem jest atak **NotPetya** z 2017 r. Złośliwe oprogramowanie, rozprowa
 - [CISA: Defining Insider Threats](https://www.cisa.gov/defining-insider-threats)
 - [NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
 - [Sekurak: artykuły z tagiem APT](https://sekurak.pl/tag/apt/)
+- [U.S. Department of Commerce: Commerce Adds NSO Group and Other Foreign Companies to Entity List (2021)](https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list)
